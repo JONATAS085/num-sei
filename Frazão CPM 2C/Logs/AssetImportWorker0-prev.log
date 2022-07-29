@@ -1,0 +1,581 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'pt' Physical Memory: 7610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lab2CPM/Frazão CPM 2C
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49755
+Successfully changed project path to: C:/Users/Lab2CPM/Frazão CPM 2C
+C:/Users/Lab2CPM/Frazão CPM 2C
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lab2CPM/Frazão CPM 2C/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 Graphics (ID=0x9874)
+    Vendor:   
+    VRAM:     3805 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005116 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1499ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3787ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (3306ms)
+			LoadAssemblies (360ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1055ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (1303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (1013ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 9.360400 ms (FindLiveObjects: 0.611000 ms CreateObjectMapping: 0.127300 ms MarkObjects: 8.315000 ms  DeleteObjects: 0.302900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Cidade/Prefabs/ambo_mesh.prefab
+  artifactKey: Guid(76c07dd6050c1274e957542c913d7907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ambo_mesh.prefab using Guid(76c07dd6050c1274e957542c913d7907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c5acd9ab099c70e64a4e0768b92748') in 0.616243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.946588 seconds.
+  path: Assets/Cidade/Prefabs/fire_truck_mesh.prefab
+  artifactKey: Guid(0a2c2ce2cd4043846b9a0880b6f227dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/fire_truck_mesh.prefab using Guid(0a2c2ce2cd4043846b9a0880b6f227dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5461bf17c0857fa53ff88370451d6a21') in 0.140510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Cidade/Prefabs/fire_truck_seperate_mesh.prefab
+  artifactKey: Guid(7cb5a7adf1c3451459dd75b2749bf290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/fire_truck_seperate_mesh.prefab using Guid(7cb5a7adf1c3451459dd75b2749bf290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94802f8f8a53721481c996ea63eac739') in 0.124407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142058 seconds.
+  path: Assets/Cidade/Prefabs/flag_mesh.prefab
+  artifactKey: Guid(297d4f4601e25494e852277515e79e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/flag_mesh.prefab using Guid(297d4f4601e25494e852277515e79e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad33f56e1587c5f76dbf084288a320d') in 0.153158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/Cidade/Prefabs/flower_mesh.prefab
+  artifactKey: Guid(1d82ee77af9ee5c46bdba56204e622e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/flower_mesh.prefab using Guid(1d82ee77af9ee5c46bdba56204e622e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e8937d37ad872346cfc81a97c6ddc5') in 0.100166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.495718 seconds.
+  path: Assets/Cidade/Prefabs/grass_square_mesh.prefab
+  artifactKey: Guid(ea729863e0ab2b942844148c09cd395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/grass_square_mesh.prefab using Guid(ea729863e0ab2b942844148c09cd395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef1002c824753345ad36fa4d9757132') in 0.172528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Cidade/Prefabs/grave_large_mesh.prefab
+  artifactKey: Guid(b6d0daa4036bab644b201bb421a19889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/grave_large_mesh.prefab using Guid(b6d0daa4036bab644b201bb421a19889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8c8287fa98325db050877a69eece02') in 0.101546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Cidade/Prefabs/grave_medium_mesh.prefab
+  artifactKey: Guid(a43f17a10ac27c748bc0ffbaa8a6fe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/grave_medium_mesh.prefab using Guid(a43f17a10ac27c748bc0ffbaa8a6fe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c5c504b840279e6d7783c7d8eef494') in 0.083338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Cidade/Prefabs/grave_small_mesh.prefab
+  artifactKey: Guid(2367423c3655b76479076789d8650e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/grave_small_mesh.prefab using Guid(2367423c3655b76479076789d8650e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fe7fca50f4b25c4c793993c3bf214e') in 0.076517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/Cidade/Prefabs/hedge_mesh.prefab
+  artifactKey: Guid(a6c9b23e54b445f49b6249c416d43bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/hedge_mesh.prefab using Guid(a6c9b23e54b445f49b6249c416d43bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4c64ffd212afce4db2f0d8d11e8039') in 0.079214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/Cidade/Prefabs/house_mesh_green.prefab
+  artifactKey: Guid(34dea18c1f78fe14e90765bd1a4d911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/house_mesh_green.prefab using Guid(34dea18c1f78fe14e90765bd1a4d911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc0da0062a7f0ebbf8e73a85a463212') in 0.151996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143761 seconds.
+  path: Assets/Cidade/Prefabs/house_mesh_orange.prefab
+  artifactKey: Guid(f83bacb1bf0cccb4ba70fde5cdda69a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/house_mesh_orange.prefab using Guid(f83bacb1bf0cccb4ba70fde5cdda69a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b3d9b2f82259a08ac382623ed5c3c6') in 0.104912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Cidade/Prefabs/house_mesh_red.prefab
+  artifactKey: Guid(19da28f31e452744c9297f3b66231f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/house_mesh_red.prefab using Guid(19da28f31e452744c9297f3b66231f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a99501e3e36690a444a177e7bfc2bb1') in 0.081151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001367 seconds.
+  path: Assets/Cidade/Prefabs/hydrant_mesh.prefab
+  artifactKey: Guid(d640ca176c8536040aded4c2dc0fe3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/hydrant_mesh.prefab using Guid(d640ca176c8536040aded4c2dc0fe3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8995d07419064e1ef7011407fff2201') in 0.093858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104466 seconds.
+  path: Assets/Cidade/Prefabs/lamp_mesh.prefab
+  artifactKey: Guid(5d50cf3ef635cb942a43009b33905c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/lamp_mesh.prefab using Guid(5d50cf3ef635cb942a43009b33905c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8854ac6b0f2b5883ec266da7e82a26e0') in 0.083692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Cidade/Prefabs/memorial_mesh.prefab
+  artifactKey: Guid(1a373d7351fe19a419a3e1f77cd9a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/memorial_mesh.prefab using Guid(1a373d7351fe19a419a3e1f77cd9a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fe564fbf59e542096903fd3096464d') in 0.074406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000969 seconds.
+  path: Assets/Cidade/Prefabs/office_large_blue.prefab
+  artifactKey: Guid(a4c5669ce7e9fed44bcf7e1ba43e98da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_large_blue.prefab using Guid(a4c5669ce7e9fed44bcf7e1ba43e98da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32838b1353a873e9c4ddfe36586bc90') in 0.115009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Cidade/Prefabs/office_large_brown.prefab
+  artifactKey: Guid(c0afbc328a3df694da18927a90d8f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_large_brown.prefab using Guid(c0afbc328a3df694da18927a90d8f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c34aba5bbd7326f150130ea6bbeef3') in 0.090732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.117593 seconds.
+  path: Assets/Cidade/Prefabs/office_large_grey.prefab
+  artifactKey: Guid(ad3e97d6ac163ba469c986d2a73341fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_large_grey.prefab using Guid(ad3e97d6ac163ba469c986d2a73341fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391fb760c01db08c27f2960aa7699ef4') in 0.109023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000797 seconds.
+  path: Assets/Cidade/Prefabs/office_medium_brown.prefab
+  artifactKey: Guid(b180380f61111a446b81013ecb8fd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_medium_brown.prefab using Guid(b180380f61111a446b81013ecb8fd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00410eaf7593f4e8e672bce47187575') in 0.092593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Cidade/Prefabs/office_medium_blue.prefab
+  artifactKey: Guid(0a9aa5b2741d2d44b86fdad12b65b9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_medium_blue.prefab using Guid(0a9aa5b2741d2d44b86fdad12b65b9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4242d1f7b0a9eff55b4009eda056b7da') in 0.058086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096388 seconds.
+  path: Assets/Cidade/Prefabs/office_medium_grey.prefab
+  artifactKey: Guid(ea26e6b8ec086c24685bb20de981068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_medium_grey.prefab using Guid(ea26e6b8ec086c24685bb20de981068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4deef6fd8169ff5c9197727a1d0bfdfb') in 0.057407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Cidade/Prefabs/office_small_blue.prefab
+  artifactKey: Guid(0c86e3b71038ebc4db3ad0766b7fac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_small_blue.prefab using Guid(0c86e3b71038ebc4db3ad0766b7fac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d35050f81af0a49c3e3bc7a0910e4e') in 0.084531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Cidade/Prefabs/office_small_brown.prefab
+  artifactKey: Guid(a34f6a526d05ad04990e600f38b3cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_small_brown.prefab using Guid(a34f6a526d05ad04990e600f38b3cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4af232af91e0a2469bf02f58cb638dd') in 0.067381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.133272 seconds.
+  path: Assets/Cidade/Prefabs/office_small_grey.prefab
+  artifactKey: Guid(dcbfe6575c5ca1341b8bedbf9f71b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_small_grey.prefab using Guid(dcbfe6575c5ca1341b8bedbf9f71b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0733c9916898e9ddc8d59f106c0a178') in 0.056862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Cidade/Prefabs/office_stepped_brown.prefab
+  artifactKey: Guid(15d1997dbe6ea8b498a94c418f219816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_stepped_brown.prefab using Guid(15d1997dbe6ea8b498a94c418f219816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c08dc6808dc52afa4c8de4f8e5e713') in 0.080465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Cidade/Prefabs/office_stepped_grey.prefab
+  artifactKey: Guid(1a61897f2f3c71f4090224a3a6b152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_stepped_grey.prefab using Guid(1a61897f2f3c71f4090224a3a6b152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e91ccbe2f102bce164bca8994784d99') in 0.065509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/Cidade/Prefabs/office_stepped_blue.prefab
+  artifactKey: Guid(29789fbe7685f4c4992b2a378483d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/office_stepped_blue.prefab using Guid(29789fbe7685f4c4992b2a378483d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e16c2b5a16fad62c4627d192ea8784') in 0.056430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111960 seconds.
+  path: Assets/Cidade/Prefabs/path_cross_mesh.prefab
+  artifactKey: Guid(2f9f24ad655335a43b711f013ddfecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/path_cross_mesh.prefab using Guid(2f9f24ad655335a43b711f013ddfecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edc649c53d8fb7e00fa728072d693be') in 0.109179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Cidade/Prefabs/road_bend_left_mesh.prefab
+  artifactKey: Guid(1c9ab28283153844a8808ec8f7de2af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_bend_left_mesh.prefab using Guid(1c9ab28283153844a8808ec8f7de2af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bcfabf72713a17447c7b695a55a590') in 0.067433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001511 seconds.
+  path: Assets/Cidade/Prefabs/path_straight_mesh.prefab
+  artifactKey: Guid(5583fa11c464c6e4584aa180d1ed2bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/path_straight_mesh.prefab using Guid(5583fa11c464c6e4584aa180d1ed2bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c06237f6a02745a2c192f1d50c26a0') in 0.092638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Cidade/Prefabs/pipe_mesh.prefab
+  artifactKey: Guid(3922530b369032f418f332a0fd30b3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/pipe_mesh.prefab using Guid(3922530b369032f418f332a0fd30b3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d50bbc47ecf2c70503f309668bef37f') in 0.087184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Cidade/Prefabs/road_bend_right_mesh.prefab
+  artifactKey: Guid(bfe030bd6a39b684d97fb274b10a5ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_bend_right_mesh.prefab using Guid(bfe030bd6a39b684d97fb274b10a5ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a06a00d1ebb23d15ed974174d096405') in 0.075615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Cidade/Prefabs/road_divider_mesh.prefab
+  artifactKey: Guid(1350517c1eb21f54a9c47168f2b3ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_divider_mesh.prefab using Guid(1350517c1eb21f54a9c47168f2b3ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c4bee57910c811e6b15a59fe310a2f') in 0.140820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/Cidade/Prefabs/road_cornerLines_mesh.prefab
+  artifactKey: Guid(4f125a7ffc7fa8f49810192386247935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_cornerLines_mesh.prefab using Guid(4f125a7ffc7fa8f49810192386247935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b76b700576b9e3ed2ce41542c4b99bb') in 0.081993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/Cidade/Prefabs/road_crossing_mesh.prefab
+  artifactKey: Guid(bf68fcd7394a7cd4c884d1e6e7091cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_crossing_mesh.prefab using Guid(bf68fcd7394a7cd4c884d1e6e7091cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3270d73d10cc1dc11d91045485a338aa') in 0.085634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Cidade/Prefabs/road_corner_mesh.prefab
+  artifactKey: Guid(bcedf905ea37bbb4e91144395428c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_corner_mesh.prefab using Guid(bcedf905ea37bbb4e91144395428c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c305f277d3262433e0942551dd8e7dcc') in 0.079734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112746 seconds.
+  path: Assets/Cidade/Prefabs/road_square_mesh.prefab
+  artifactKey: Guid(3d297aa470482cb4393b22ed578eb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_square_mesh.prefab using Guid(3d297aa470482cb4393b22ed578eb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3270d21a971be7d232eebbaee189ae') in 0.075604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Cidade/Prefabs/road_straight_mesh.prefab
+  artifactKey: Guid(d80c7433031fdee44bf3910c4b046ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_straight_mesh.prefab using Guid(d80c7433031fdee44bf3910c4b046ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cb84f8e2b8153a3753d1eae1e3765c') in 0.079283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Cidade/Prefabs/road_t_mesh.prefab
+  artifactKey: Guid(cdb9ff9fc22979e4baf8739de30c0150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_t_mesh.prefab using Guid(cdb9ff9fc22979e4baf8739de30c0150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b12cc153c52c3e35a9e2d45e281ece1') in 0.084808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Cidade/Prefabs/road_straight_clear_mesh.prefab
+  artifactKey: Guid(d153a8045fa3a8143b860fc787040f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/road_straight_clear_mesh.prefab using Guid(d153a8045fa3a8143b860fc787040f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406e69f9660176cd95b4800a20f95ca1') in 0.086201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110508 seconds.
+  path: Assets/Cidade/Prefabs/roadLane_straight_mesh.prefab
+  artifactKey: Guid(71db3c8c980cdfe43a932c4c97642934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/roadLane_straight_mesh.prefab using Guid(71db3c8c980cdfe43a932c4c97642934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf789f3ff49b65039fe042e748967d0') in 0.061660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Cidade/Prefabs/rubbish_truck_seperate_mesh.prefab
+  artifactKey: Guid(461e55d811a1ac94aa53afb23a5b30da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/rubbish_truck_seperate_mesh.prefab using Guid(461e55d811a1ac94aa53afb23a5b30da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec1a41d6a60df18df474ebeab44854') in 0.094894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Cidade/Prefabs/rubbishTruck_mesh.prefab
+  artifactKey: Guid(d72dd8fb4dd2633468bce666db5638df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/rubbishTruck_mesh.prefab using Guid(d72dd8fb4dd2633468bce666db5638df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b7071018b18c2eac9e8c3f07367ca') in 0.089630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Cidade/Prefabs/store_corner_drug.prefab
+  artifactKey: Guid(6c0090ac963b4da4281d5504336c63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/store_corner_drug.prefab using Guid(6c0090ac963b4da4281d5504336c63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e723d8aea0342a57541d83e744b9458') in 0.137960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Cidade/Prefabs/store_corner_pawn.prefab
+  artifactKey: Guid(5a21fcb351fbcfc42b8bd782228bf6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/store_corner_pawn.prefab using Guid(5a21fcb351fbcfc42b8bd782228bf6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506fe745732fcbe201d54b7b7ac1559c') in 0.111642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Cidade/Prefabs/store_corner_video.prefab
+  artifactKey: Guid(d38740e8c663c3d4a816bda0dc5ea549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/store_corner_video.prefab using Guid(d38740e8c663c3d4a816bda0dc5ea549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0ed6527ebd478ea118da1169326cbe') in 0.131903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Cidade/Prefabs/store_small_pawn.prefab
+  artifactKey: Guid(63a76814abd51c84d9b5bdda95b1dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/store_small_pawn.prefab using Guid(63a76814abd51c84d9b5bdda95b1dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d9e6dfa855c8365ec22789da8c1561') in 0.089802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Cidade/Prefabs/store_small_drug.prefab
+  artifactKey: Guid(4dc3e9b9e2c2a7b46a986f5e5c6a88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/store_small_drug.prefab using Guid(4dc3e9b9e2c2a7b46a986f5e5c6a88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479332ff1cad06307c6aee5e4a753024') in 0.055109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076534 seconds.
+  path: Assets/Cidade/Prefabs/store_small_video.prefab
+  artifactKey: Guid(b5a69d4e00207dd4e8f4a3fda7e777e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/store_small_video.prefab using Guid(b5a69d4e00207dd4e8f4a3fda7e777e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e334f4939b5b602e45939f2981b467f') in 0.062229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Cidade/Prefabs/taxi_seperate_mesh.prefab
+  artifactKey: Guid(27aa3b505c549a24187be29597eb4745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/taxi_seperate_mesh.prefab using Guid(27aa3b505c549a24187be29597eb4745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71720159b627ebd7acc986c5c0877b6') in 0.120374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Cidade/Prefabs/taxi_mesh.prefab
+  artifactKey: Guid(3a6b3b3cbef4bd547ba26fa2fb59dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/taxi_mesh.prefab using Guid(3a6b3b3cbef4bd547ba26fa2fb59dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70289eb792219757a36e52c271420bd4') in 0.075890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Cidade/Prefabs/traffic_light_mesh.prefab
+  artifactKey: Guid(3b6c9ca77553d2c448eb1e98dcb9f245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/traffic_light_mesh.prefab using Guid(3b6c9ca77553d2c448eb1e98dcb9f245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6bcf72aad3a09c756979a7e72d4d21') in 0.075160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Cidade/Prefabs/trash_mesh.prefab
+  artifactKey: Guid(dc289fda3255c0c45a5b68320f21b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/trash_mesh.prefab using Guid(dc289fda3255c0c45a5b68320f21b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbaa157811682b42ab97d5a497aa6a7') in 0.078766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093280 seconds.
+  path: Assets/Cidade/Prefabs/tree_large_mesh.prefab
+  artifactKey: Guid(0ccc03e88bfc20c46b4f5ea02f4da61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/tree_large_mesh.prefab using Guid(0ccc03e88bfc20c46b4f5ea02f4da61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775173a797d2c0711632a98b7c65b5b3') in 0.067444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Cidade/Prefabs/tree_small_mesh.prefab
+  artifactKey: Guid(6d53ac9a81f80b6449e442c4c8bf8a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/tree_small_mesh.prefab using Guid(6d53ac9a81f80b6449e442c4c8bf8a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8309b03e12cecc06c010915f8dd666') in 0.066289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/Cidade/Prefabs/tree_medium_mesh.prefab
+  artifactKey: Guid(471d45b220915504f893693209abc57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/tree_medium_mesh.prefab using Guid(471d45b220915504f893693209abc57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548b18957465a777e44033e833defd07') in 0.085453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125924 seconds.
+  path: Assets/Cidade/Prefabs/ute_empty_blue.prefab
+  artifactKey: Guid(224d32f570b8ddb48904f4996af0c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_empty_blue.prefab using Guid(224d32f570b8ddb48904f4996af0c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10beef869d79c5b147bbb6071daaac5') in 0.140558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Cidade/Prefabs/ute_empty_red.prefab
+  artifactKey: Guid(eb85967c5c50a1e47a6c0bd1bc4125b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_empty_red.prefab using Guid(eb85967c5c50a1e47a6c0bd1bc4125b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc0a957d05b5271da8f44bd287f6f4a') in 0.109620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Cidade/Prefabs/ute_empty_seperate_red.prefab
+  artifactKey: Guid(0551e49085b3d7f4f9c0693f907c269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_empty_seperate_red.prefab using Guid(0551e49085b3d7f4f9c0693f907c269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb4ba1a04b50d6aad87db1c61d6efc9') in 0.088758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Cidade/Prefabs/ute_empty_seperate_blue.prefab
+  artifactKey: Guid(b1ee931077b1eb248a8bcfe22dc6aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_empty_seperate_blue.prefab using Guid(b1ee931077b1eb248a8bcfe22dc6aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7815fb2bb7f0527b6a00663446c004') in 0.068786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.483150 seconds.
+  path: Assets/Cidade/Prefabs/ute_empty_seperate_yellow.prefab
+  artifactKey: Guid(83ca4f42a9302344f86dd4a182495cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_empty_seperate_yellow.prefab using Guid(83ca4f42a9302344f86dd4a182495cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce3572a92be73c4fd7585a6631e6a43') in 0.094685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Cidade/Prefabs/ute_mesh_blue.prefab
+  artifactKey: Guid(c2e3939a868931049abc3432dad0e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_mesh_blue.prefab using Guid(c2e3939a868931049abc3432dad0e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2166b076310ec8a53e364ca20ca807d3') in 0.080373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/Cidade/Prefabs/ute_empty_yellow.prefab
+  artifactKey: Guid(8f241df769507024589aed00be21634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_empty_yellow.prefab using Guid(8f241df769507024589aed00be21634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6710a3d77c56fc9deb58b81992ba6884') in 0.079361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000969 seconds.
+  path: Assets/Cidade/Prefabs/ute_mesh_red.prefab
+  artifactKey: Guid(5e50cc97e2ae1654eafc1c06b0598c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_mesh_red.prefab using Guid(5e50cc97e2ae1654eafc1c06b0598c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9037a303a3116a189db75afc051623') in 0.068640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097313 seconds.
+  path: Assets/Cidade/Prefabs/ute_mesh_yellow.prefab
+  artifactKey: Guid(ff30cb6d8d4b98a429d9e2e553f721bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_mesh_yellow.prefab using Guid(ff30cb6d8d4b98a429d9e2e553f721bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a742e09df89c133e32f55e5c4561f76') in 0.065562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Cidade/Prefabs/ute_seperate_red.prefab
+  artifactKey: Guid(1893f17d7ce7dc14ab38d7bec520abbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_seperate_red.prefab using Guid(1893f17d7ce7dc14ab38d7bec520abbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fc0808d0c38a4c434bdbf854921161') in 0.098231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Cidade/Prefabs/ute_seperate_yellow.prefab
+  artifactKey: Guid(8f6186a00ca7c2b43b646c00e426ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_seperate_yellow.prefab using Guid(8f6186a00ca7c2b43b646c00e426ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30a8117435cca8c7cd919e89d4dabe7') in 0.091789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Cidade/Prefabs/ute_seperate_blue.prefab
+  artifactKey: Guid(7eebe9d5a5555b84f86b7fde9a44f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/ute_seperate_blue.prefab using Guid(7eebe9d5a5555b84f86b7fde9a44f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9d855037c5fce9d75bd6e3f86a2c0d') in 0.097593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305366 seconds.
+  path: Assets/Cidade/Prefabs/van_mesh_blue.prefab
+  artifactKey: Guid(214ac0e4fb1431a4aacd7761fe8ce74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/van_mesh_blue.prefab using Guid(214ac0e4fb1431a4aacd7761fe8ce74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d83f875fb2ba98defc7482a78cb6765') in 0.114281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Cidade/Prefabs/van_mesh_green.prefab
+  artifactKey: Guid(69e19b5c7e7b40240a1c0f75ac2fd99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/van_mesh_green.prefab using Guid(69e19b5c7e7b40240a1c0f75ac2fd99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d49d2448c9bb88dee84098bb8730d2') in 0.106857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174703 seconds.
+  path: Assets/Cidade/Prefabs/van_mesh_red.prefab
+  artifactKey: Guid(290feb150f3db75419528a6cdae85814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/van_mesh_red.prefab using Guid(290feb150f3db75419528a6cdae85814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9f51f8ba8753a0c551cf5648df1369') in 0.100172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Cidade/Prefabs/van_seperate_blue.prefab
+  artifactKey: Guid(4e6d1df23fffda345a12dc354ee1f342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/van_seperate_blue.prefab using Guid(4e6d1df23fffda345a12dc354ee1f342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d33890d61b3d4a962c714ee33a935b') in 0.090483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Cidade/Prefabs/van_seperate_green.prefab
+  artifactKey: Guid(810ffd4d261c72340893835a3dbce3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/van_seperate_green.prefab using Guid(810ffd4d261c72340893835a3dbce3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4092809b722bc38291b5e51f0f551d') in 0.057764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.186101 seconds.
+  path: Assets/Cidade/Prefabs/van_seperate_red.prefab
+  artifactKey: Guid(75de114f56c51404baa440b232faa1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Prefabs/van_seperate_red.prefab using Guid(75de114f56c51404baa440b232faa1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d8cd331178b7fb13c00784a20afa21') in 0.062457 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
