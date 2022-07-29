@@ -1,0 +1,329 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'pt' Physical Memory: 7610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lab2CPM/Frazão CPM 2C Cidade
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49940
+Successfully changed project path to: C:/Users/Lab2CPM/Frazão CPM 2C Cidade
+C:/Users/Lab2CPM/Frazão CPM 2C Cidade
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lab2CPM/Frazão CPM 2C Cidade/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 Graphics (ID=0x9874)
+    Vendor:   
+    VRAM:     3805 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004749 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1291ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2190ms)
+		BeginReloadAssembly (347ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1704ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 5.464100 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.086400 ms MarkObjects: 4.908100 ms  DeleteObjects: 0.173200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Cidade/Models/fence_short_mesh.fbx
+  artifactKey: Guid(3306a08c828838c4693720ab10d47a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/fence_short_mesh.fbx using Guid(3306a08c828838c4693720ab10d47a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4262b07a0af5a00b3b6b70e56af649') in 0.336127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Cidade/Models/fence_long_mesh.fbx
+  artifactKey: Guid(b714036eb8031b744b2c8a63b8608450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/fence_long_mesh.fbx using Guid(b714036eb8031b744b2c8a63b8608450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcdeb1618806dfcf198d4237acedb5f') in 0.054415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Cidade/Models/dumpster_mesh.fbx
+  artifactKey: Guid(7269fba8d02dfd64ebfd3de23dcdd7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/dumpster_mesh.fbx using Guid(7269fba8d02dfd64ebfd3de23dcdd7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6142f56367b83a583be72a18e0ddb1') in 0.060370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Cidade/Models/car_seperate_mesh.fbx
+  artifactKey: Guid(aa8035fa128f0d04294a7f4e3a030e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/car_seperate_mesh.fbx using Guid(aa8035fa128f0d04294a7f4e3a030e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b111e92a8a7356e7b7d19dbc805371') in 0.147992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Cidade/Models/cop_mesh.fbx
+  artifactKey: Guid(293b6fe9bb950bc4ab74f8cd8061d92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/cop_mesh.fbx using Guid(293b6fe9bb950bc4ab74f8cd8061d92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a885e79e91ee23c6ee7cf30df5f1205b') in 0.058474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Cidade/Models/dish_mesh.fbx
+  artifactKey: Guid(1e70ad8bd4a3b2e4fb89dbddb6f35fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/dish_mesh.fbx using Guid(1e70ad8bd4a3b2e4fb89dbddb6f35fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f7a81f20e51b6267065df631d6c631') in 0.053985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Cidade/Models/cop_seperate_mesh.fbx
+  artifactKey: Guid(60b40dfcd89595b45b07229ca226ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/cop_seperate_mesh.fbx using Guid(60b40dfcd89595b45b07229ca226ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d8427574c8c8ec6eb3ab19bf1f1c4a') in 0.126709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.816637 seconds.
+  path: Assets/Cidade/Materials/Vehice_Ambulance.mat
+  artifactKey: Guid(14f01ae7a86d50843aa6fce9ffb1242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Materials/Vehice_Ambulance.mat using Guid(14f01ae7a86d50843aa6fce9ffb1242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c7e129646c43ac0d5d0125c02013f6') in 0.065722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Cidade/Materials/Vehicle_Bus_Blue.mat
+  artifactKey: Guid(3682cb2c05500784a91ea861b80894d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Materials/Vehicle_Bus_Blue.mat using Guid(3682cb2c05500784a91ea861b80894d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a5a17346c8f5030c4329f5cfb288d9') in 0.049945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Cidade/Materials/Vehicle_Bus_Brown.mat
+  artifactKey: Guid(2d0aba1c7a1f1ad4e8c42037f8c582a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Materials/Vehicle_Bus_Brown.mat using Guid(2d0aba1c7a1f1ad4e8c42037f8c582a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac639ed9a2b390cf8dbfc21af1856a4') in 0.059891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.660178 seconds.
+  path: Assets/Cidade/Models/fire_truck_mesh.fbx
+  artifactKey: Guid(1a9ec28a57f973945b6b6e4da48d6486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/fire_truck_mesh.fbx using Guid(1a9ec28a57f973945b6b6e4da48d6486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab94becc91d3f5d9b24881c9c023eb93') in 0.052782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/Cidade/Models/flag_mesh.fbx
+  artifactKey: Guid(2b708f6785cad63438f5d0b725383c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/flag_mesh.fbx using Guid(2b708f6785cad63438f5d0b725383c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dcda11874234057cbce54de15d4f1e') in 0.062435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Cidade/Models/fire_truck_seperate_mesh.fbx
+  artifactKey: Guid(ac6fbc75436e9694db18176f80b9c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/fire_truck_seperate_mesh.fbx using Guid(ac6fbc75436e9694db18176f80b9c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df75aec00601d2ab7aab5ba19540c1') in 0.135775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.824129 seconds.
+  path: Assets/Cidade/Models/flower_mesh.fbx
+  artifactKey: Guid(2807ac1e6aaa1db4494f49b48a136a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/flower_mesh.fbx using Guid(2807ac1e6aaa1db4494f49b48a136a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1362a73d67513dab1b4c42586ff8dff1') in 0.037188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Cidade/Models/grass_square2_mesh.fbx
+  artifactKey: Guid(75ee8fbc6cb12ce45a6186a0b4be2387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/grass_square2_mesh.fbx using Guid(75ee8fbc6cb12ce45a6186a0b4be2387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef395e3be169ac500f693096846418a2') in 0.066262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Cidade/Models/grave_large_mesh.fbx
+  artifactKey: Guid(a9d1e8c5c487f59449feb8247adb1d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/grave_large_mesh.fbx using Guid(a9d1e8c5c487f59449feb8247adb1d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38ec6b338bc1c085a39cc472ab1b8bf') in 0.062316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Cidade/Models/grass_square_mesh.fbx
+  artifactKey: Guid(c605447090e671b459d4f4be5a654c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/grass_square_mesh.fbx using Guid(c605447090e671b459d4f4be5a654c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91778f741c63f39a459483fd71dfec3c') in 0.052816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093615 seconds.
+  path: Assets/Cidade/Models/grave_medium_mesh.fbx
+  artifactKey: Guid(fb6acf5092e2f4b4faebf8f66b22687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/grave_medium_mesh.fbx using Guid(fb6acf5092e2f4b4faebf8f66b22687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fe1b50b21df52a3e3ac068aaecbc8e') in 0.042992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Cidade/Models/house_mesh.fbx
+  artifactKey: Guid(3df78f3a0d674904fbb11674daeb5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/house_mesh.fbx using Guid(3df78f3a0d674904fbb11674daeb5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911f0c24777d62bbd3b910b469196575') in 0.068853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Cidade/Models/hedge_mesh.fbx
+  artifactKey: Guid(0c8ba6ad9fcfea4468a701b76e61a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/hedge_mesh.fbx using Guid(0c8ba6ad9fcfea4468a701b76e61a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5d9525c12b70a414610c1fbab45b0b') in 0.061596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Cidade/Models/grave_small_mesh.fbx
+  artifactKey: Guid(f6f6267b1b0f1044ab2cdffdb9a2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/grave_small_mesh.fbx using Guid(f6f6267b1b0f1044ab2cdffdb9a2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e092540104a116aa8ecbb1a3ef74c84') in 0.059791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194633 seconds.
+  path: Assets/Cidade/Models/hydrant_mesh.fbx
+  artifactKey: Guid(be782bf7166c3da4588eddd3c6a679d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/hydrant_mesh.fbx using Guid(be782bf7166c3da4588eddd3c6a679d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57266a386076d57caeba8b259c517d0') in 0.033894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Cidade/Models/lamp_mesh.fbx
+  artifactKey: Guid(f4f3301d159ef694486580351d7ec94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/lamp_mesh.fbx using Guid(f4f3301d159ef694486580351d7ec94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bea357b21409db83d4587cd85bfeda') in 0.062683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.681458 seconds.
+  path: Assets/Cidade/Models/memorial_mesh.fbx
+  artifactKey: Guid(7b1640aa75d8bf44dbe19952310e2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/memorial_mesh.fbx using Guid(7b1640aa75d8bf44dbe19952310e2bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15de9b8d8defaee2990b6d0d2d788623') in 0.049170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065847 seconds.
+  path: Assets/Cidade/Models/office_large_mesh.fbx
+  artifactKey: Guid(9a5c88c0d89c2d94488c3b498162eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/office_large_mesh.fbx using Guid(9a5c88c0d89c2d94488c3b498162eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5ae2bf8139e81d58b383b493455128') in 0.035769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628499 seconds.
+  path: Assets/Cidade/Models/office_medium_mesh.fbx
+  artifactKey: Guid(c304cd2c4cb00ee4ab83f32bf6a4757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/office_medium_mesh.fbx using Guid(c304cd2c4cb00ee4ab83f32bf6a4757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d3e25f4ea4b04bd05ffebb556ad30e') in 0.044813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155114 seconds.
+  path: Assets/Cidade/Models/office_small_mesh.fbx
+  artifactKey: Guid(8752711a958b2ca4a884a364100df2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/office_small_mesh.fbx using Guid(8752711a958b2ca4a884a364100df2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd24723467cb294a3230c27a3e975663') in 0.035044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.394551 seconds.
+  path: Assets/Cidade/Models/office_stepped_mesh.fbx
+  artifactKey: Guid(82eb5699714912a4595b1f4351d116b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/office_stepped_mesh.fbx using Guid(82eb5699714912a4595b1f4351d116b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f59f020f8d399a3494ca0669745ff7') in 0.052020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059672 seconds.
+  path: Assets/Cidade/Models/path_cross_mesh.fbx
+  artifactKey: Guid(1a0b9067fe9a4004da8047d91772d207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/path_cross_mesh.fbx using Guid(1a0b9067fe9a4004da8047d91772d207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed90a9b45d53b0b66b234ef8b43920d7') in 0.033708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125408 seconds.
+  path: Assets/Cidade/Models/path_straight_mesh.fbx
+  artifactKey: Guid(d1bb9e0991a3f3f4fa522fa5c567952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/path_straight_mesh.fbx using Guid(d1bb9e0991a3f3f4fa522fa5c567952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08bb2652bacfedb2efbe967743bad76') in 0.035019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.238753 seconds.
+  path: Assets/Cidade/Models/pipe_mesh.fbx
+  artifactKey: Guid(af3da6e320a1bdf4bb19a4ccbf782962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/pipe_mesh.fbx using Guid(af3da6e320a1bdf4bb19a4ccbf782962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e6687e6ffd8b7b6c242c9315d25119') in 0.048696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Cidade/Models/road_bend_left_mesh.fbx
+  artifactKey: Guid(f76ce972ffd926a408e7ad88d2014686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/road_bend_left_mesh.fbx using Guid(f76ce972ffd926a408e7ad88d2014686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2454e73a981d685f4fd415690a5c0d6') in 0.063833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479372 seconds.
+  path: Assets/Cidade/Models/road_bend_right_mesh.fbx
+  artifactKey: Guid(c0132b07b048ebe4e997ced977aafbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cidade/Models/road_bend_right_mesh.fbx using Guid(c0132b07b048ebe4e997ced977aafbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303d1bee1cac8a667b6233582c8c6ec4') in 0.035298 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
